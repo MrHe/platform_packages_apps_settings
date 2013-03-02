@@ -140,7 +140,7 @@ public class ActivityPicker extends AlertActivity implements
     protected List<PickAdapter.Item> getItems() {
         PackageManager packageManager = getPackageManager();
         List<PickAdapter.Item> items = new ArrayList<PickAdapter.Item>();
-        
+        /////////////@params
         // Add any injected pick items
         final Intent intent = getIntent();
         ArrayList<String> labels =
